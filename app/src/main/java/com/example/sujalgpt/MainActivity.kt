@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
             // For text-only input, use the gemini-pro model
             modelName = "gemini-1.5-flash",
             // Access your API key as a Build Configuration variable (see "Set up your API key" above)
-            apiKey = "AIzaSyBtnxfC1aQ0UkZ6EWv1zgi26mrazrI-Z4E"
+            apiKey = "API key here"
         )
         MainScope().launch {
             val response = generativeModel.generateContent(question.trimIndent())
